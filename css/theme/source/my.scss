@@ -98,3 +98,13 @@ $overlayElementFgColor: 0, 0, 0;
     -webkit-transform: translate(0, -50%);
     position: absolute;
 }
+
+.reveal blockquote {
+    width: 90%;
+    text-align: center;
+    // border-left-style: solid;
+    // border-left-width: 5px;
+    // padding-left: 2em;
+    // padding-right: 2em;
+}
+
