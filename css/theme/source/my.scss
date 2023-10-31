@@ -78,7 +78,11 @@ $overlayElementFgColor: 0, 0, 0;
 .reveal .slide-number {
     background-color: rgba(0,0,0,0);
     color: black;
-    font-size: 20px;
+    font-size: 15px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 }
 
 .reveal .progress {
