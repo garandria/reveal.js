@@ -12,17 +12,13 @@
 // Include theme-specific fonts
  @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@font-face {
-    font-family: "MyIosevka";
-    src: url("../../../fonts/my-iosevka-medium.woff2");
-}
 
 // Override theme settings (see ../template/settings.scss)
 // Background of the presentation
 $backgroundColor: #d3d3d3;
 
 // Primary/body text
-$mainFont: 'Roboto', sans-serif;
+$mainFont: 'Roboto Condensed', sans-serif;
 $mainFontSize: 28px;
 $mainColor: #000;
 
@@ -31,7 +27,7 @@ $mainColor: #000;
 
 // Headings
 // $headingMargin: 0 0 $blockMargin 0;
-$headingFont: 'Yanone Kaffeesatz', sans-serif;;
+$headingFont: 'Yanone Kaffeesatz', sans-serif;
 $headingColor: #000;
 // $headingLineHeight: 1.2;
 // $headingLetterSpacing: normal;
@@ -47,7 +43,7 @@ $heading4Size: 40px;
 $heading5Size: 35px;
 $heading6Size: 30px;
 
-$codeFont: 'MyIosevka', monospace;
+$codeFont: 'Roboto Mono', monospace;
 
 // Links and actions
 $linkColor: #00008B;
